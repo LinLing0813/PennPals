@@ -7,7 +7,7 @@ public class User {
     private String nickname;
 
     public User(int id, String nickname) {
-        this.userId = id;// Fix so cant be generated multiple times?
+        this.userId = id;
         this.nickname = nickname;
     }
 
